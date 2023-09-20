@@ -3,9 +3,10 @@ const sendButton = document.querySelector("#send-btn");
 const chatContainer = document.querySelector(".chat-container");
 const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
+import API_KEY from ("https://pastebin.com/raw/pcnFX6cX)
 
 let userText = null;
-const API_KEY = "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"; // Paste your API key here
+const API_KEY = API_KEY; // Paste your API key here
 
 const loadDataFromLocalstorage = () => {
     // Load saved chats and theme from local storage and apply/add on the page
